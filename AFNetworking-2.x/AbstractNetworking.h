@@ -68,7 +68,7 @@
 /**
  *  代理
  */
-@property (nonatomic, strong) id <AbstractNetworkingDelegate>     m_delegate;
+@property (nonatomic, weak) id <AbstractNetworkingDelegate>     m_delegate;
 
 /**
  *  请求用参数（字典或者数组）
